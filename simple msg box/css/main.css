@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    position: relative;
+    background-color: palevioletred;
+    height: 100vh;
+}
+
+.msg-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color:whitesmoke;
+}
+
+#message{
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    color: #333;
+    font-size:18px;
+    margin-bottom: 30px;
+    background-color:#fff;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(71, 71, 71, 0.1);
+
+}
+
+#add{
+    width: 50%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color:#C96E67;
+    font-size: 15px;
+    cursor: pointer;
+}
